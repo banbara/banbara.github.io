@@ -1,0 +1,227 @@
+/* body */
+body
+{
+  background: lightgray;
+  font-family: sans-serif;
+/* font-family: 'Vollkorn', georgia, serif; */
+  font: normal;
+  color: white;
+  margin: 0px;
+  padding: 1em 0em;
+}
+
+/* body > div#content */
+#content
+{
+  width: 95%;
+  line-height: 1.2;
+  margin: 0em auto;
+  -moz-border-radius: .5em; /* gecko */
+  -webkit-border-radius: .5em; /* webkit */
+  border-radius: .5em; /* w3 */
+  background: #000044;
+  /* background: -moz-linear-gradient(center top, #000044 0%,#112200 100%); */
+  /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000044),color-stop(1, #112200)); */
+}
+
+#content>h1
+{
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: xx-large;
+  margin: 0em;
+  padding: 1em 1em 0.5em 1em;
+  /* text-shadow: 2px 1px 3px #8888ff; */
+  text-shadow: 0px 0px 1px #024,
+    0px 0px 10px #7af,
+    0px 0px 20px #7af,
+    0px 0px 30px #7af;
+  text-align: center;
+}
+
+div.subtitle
+{
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: large;
+  margin: 0em;
+  margin-top: -0.5em;
+  padding: 0em 1em 1em 2em;
+  text-shadow: 2px 1px 3px #8888ff;
+  text-align: center;
+}
+
+/* body > div#content > div.clear */
+div.clear
+{
+  clear: both;
+}
+
+/* body > div#content > div#postamble */
+div#postamble
+{
+  clear: both;
+  padding: 0.5em;
+}
+div#postamble p
+{
+  font-style: italic;
+  font-size: small;
+  margin: 0em;
+  padding: 0em;
+}
+div#postamble a
+{
+  color: white;
+}
+div#postamble p.date
+{
+  font-style: italic;
+}
+
+/* body > div#content > div.outline-2 */
+div.outline-2, #footnotes
+{
+  background: white;
+  color: black;
+  margin: 0em;
+  padding: 0.1em 1em 1em 1em;
+  line-height: 1.5;
+}
+
+/* body > div#content > div#footnotes */
+#footnotes
+{
+  border-top: 4px solid #888888;
+}
+
+#footnotes h2
+{
+  display: none;
+}
+
+p.footnote
+{
+  padding-left: 2em;
+}
+
+.footnum
+{
+  background: #eecccc;
+}
+
+/*
+   General settings
+ */
+h2, h3, h4
+{
+  font-family: sans-serif;
+  font-variant: small-caps;
+  text-shadow: 2px 1px 3px #aaaaaa;
+}
+
+h2
+{
+/*  font-size: large; */
+  font-size: medium;
+  border-left: 15px solid darkblue;
+  border-bottom: 2px solid #cccccc;
+  margin: 0.5em 0em 0.5em 0em;
+  padding-left: 0.5em;
+}
+
+h3
+{
+  font-size: medium;
+  border-left: 5px solid darkblue;
+  margin: 1em 0em 0.5em 0.5em;
+  padding-left: 0.5em;
+}
+
+h4
+{
+  font-size: medium;
+  border-left: 2px solid darkblue;
+  margin: 1.5em 0em 0.5em 0.5em;
+  padding-left: 0.5em;
+}
+
+a:link { color: #006688; }
+a:visited { color: #000044; }
+a:hover { background: #ccccff; color: black; }
+
+ul, ol, dl
+{
+  margin-left: 2em;
+  padding-left: 1em;
+}
+
+pre
+{
+  background: gainsboro;
+  font-family: monospace;
+  font-weight: normal;
+  font-style: normal;
+  white-space: pre;
+  line-height: 1.1;
+  margin-left: 1em;
+  margin-right: 0em;
+  padding: 0.5em;
+}
+pre.example
+{
+  background: #eeeeff;
+}
+pre.src
+{
+  background: #eeeeee;
+  color: black;
+}
+pre.src .linenr {  }
+pre.src .org-keyword { font-weight: bold; color: #880000; }
+pre.src .org-constant { color: #008800; }
+pre.src .org-type { color: #000088; }
+pre.src .org-function-name { color: #008888; }
+pre.src .org-variable-name { color: #004444; }
+pre.src .org-string { color: #880088; }
+
+blockquote
+{
+  background: lightgray;
+  margin: 0em;
+  padding: 0.5em 0em;
+}
+
+table
+{
+  margin: 0.5em 0em 0.5em 40px;
+  line-height: 1.2;
+  padding: 0.1em;
+}
+thead { background: #cccccc; }
+tbody { background: #eeeeee; }
+th.left { text-align: center; }
+th.right { text-align: center; }
+th, td
+{
+  padding: 0.25em 0.5em;
+}
+
+p
+{
+  margin-left: 1em;
+}
+
+code, tt
+{
+  font-family: monospace;
+  font-style: normal;
+}
+
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+.emphasis { color: red; }
+.todo { font-weight: bold; color: red; }
+.done { font-weight: bold; color: green; }
+.tag { font-weight: bold; font-style: italic; }
+.timestamp { font-family: monospace; color: #550000; padding: 0em 0.3em 0.2em 0.3em; }
+
